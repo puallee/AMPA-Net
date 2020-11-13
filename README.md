@@ -18,8 +18,7 @@ This is the official TensorFlow implementation of AMPA-Net
 
 Our model achieves the following performance on Set11,BSD68,BSDS100,Urban100
 
-
-|      dataset | Set11                                                                                  |
+## performance on Set11
 |  Model name  |     cs=50%   |    cs=40%    |    cs=25%    |   cs=10%     |     cs=4%    |    cs=1%    |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |------------ |
 |   BM3D-AMP   |     34.11    |     32.79    |  27.87| 22.12 | 17.32 |4.91|
@@ -34,7 +33,8 @@ Our model achieves the following performance on Set11,BSD68,BSDS100,Urban100
 |   AMPA-Net   |     40.32    | 38.27 | 34.61        | 29.30 | 24.95 |21.59 |
 
 
-|                                      performance on Set68                                              |
+## performance on Set68                                              
+
  |  Model name  |     cs=50%   |    cs=40%    |    cs=25%    |   cs=10%     |     cs=4%    |    cs=1%    |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |------------ |
 |   BM3D-AMP   |     34.11    |     32.79    |  27.87| 22.12 | 17.32 |4.91|
