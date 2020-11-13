@@ -7,9 +7,12 @@ This is the official TensorFlow implementation of AMPA-Net
 * Recommend Environment: Anaconda
 
 ## Preparing Training Datasets-Image-91
-   Download  Training_Data_Img91.mat
+   Download  Training_Data_Img91.mat from https://pan.baidu.com/s/1c34-DWDhFBsNPX23bs4H1A code is 7dV2 and cp it into this folder
+## Preparing Testing Datasets:Urban-100 and BSDS100
+   Download  Urban-100 from https://pan.baidu.com/s/1M9yoJaQ1DqCrpXO-DqSo4Q code is 2i5o and cp it into this folder
+   Download  BSDS-100 from https://pan.baidu.com/s/12Y4FOzmOcNjQTjvtRq0mpQ code is OBbE and cp it into this folder
 ## Running training and testing
-   Python trainn 
+   Python trainn.py 
 
 ## Contact
 Email: nanyuli1994@gmail.com
