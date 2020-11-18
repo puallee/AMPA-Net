@@ -1,6 +1,6 @@
 # AMPA-Net
 This is the official TensorFlow implementation of AMPA-Net
-[AMPA-Net：Optimization-Inspired Attention Neural Network for Deep Compressed Sensing，In the IEEE 20th International Conference on Communication Technology (ICCT) oral]
+[Nanyu Li, Charles C. Zhou, AMPA-Net：Optimization-Inspired Attention Neural Network for Deep Compressed Sensing，In the IEEE 20th International Conference on Communication Technology (ICCT) oral]
 which can download from https://arxiv.org/abs/2010.06907
 ## Abstract
 Compressed sensing (CS) is a challenging problem in image processing due to reconstructing an almost complete image from a limited measurement. To achieve fast and accurate CS reconstruction, we synthesize the advantages of two well-known methods (neural network and optimization algorithm) to propose a novel optimization inspired neural network which dubbed AMP-Net. AMP-Net realizes the fusion of the Approximate Message Passing (AMP) algorithm and neural network. All of its parameters are learned automatically. Furthermore, we propose an AMPA-Net which uses three attention networks to improve the representation ability of AMP-Net. Finally, We demonstrate the effectiveness of AMP-Net and AMPA-Net on four standard CS reconstruction benchmark data sets.
