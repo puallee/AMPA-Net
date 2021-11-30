@@ -17,7 +17,7 @@ Compressed sensing (CS) is a challenging problem in image processing due to reco
    
    Download  BSDS-100 from https://pan.baidu.com/s/12Y4FOzmOcNjQTjvtRq0mpQ code is OBbE and cp it into this folder
    
-   please visit New links：https://pan.baidu.com/s/15ONiahUxcasthV1FTx0fUg  code：abcd
+   please visit a new link：https://pan.baidu.com/s/15ONiahUxcasthV1FTx0fUg  code：abcd to download all datasets
 ## Running training and testing
    Python trainn.py 
 
