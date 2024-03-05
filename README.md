@@ -1,9 +1,9 @@
 # AMPA-Net
 This is the official TensorFlow implementation of AMPA-Net
-[Nanyu Li, Charles C. Zhou, AMPA-Net：Optimization-Inspired Attention Neural Network for Deep Compressed Sensing，In the IEEE 20th International Conference on Communication Technology (ICCT) oral]
-which can download from https://arxiv.org/abs/2010.06907
+[Nanyu Li, Charles C. Zhou, AMPA-Net： Optimization-Inspired Attention Neural Network for Deep Compressed Sensing， In the IEEE 20th International Conference on Communication Technology (ICCT) oral]
+which can be downloaded from https://arxiv.org/abs/2010.06907
 ## Abstract
-Compressed sensing (CS) is a challenging problem in image processing due to reconstructing an almost complete image from a limited measurement. To achieve fast and accurate CS reconstruction, we synthesize the advantages of two well-known methods (neural network and optimization algorithm) to propose a novel optimization inspired neural network which dubbed AMP-Net. AMP-Net realizes the fusion of the Approximate Message Passing (AMP) algorithm and neural network. All of its parameters are learned automatically. Furthermore, we propose an AMPA-Net which uses three attention networks to improve the representation ability of AMP-Net. Finally, We demonstrate the effectiveness of AMP-Net and AMPA-Net on four standard CS reconstruction benchmark data sets.
+Compressed sensing (CS) is a challenging problem in image processing due to reconstructing an almost complete image from a limited measurement. To achieve fast and accurate CS reconstruction, we synthesize the advantages of two well-known methods (neural network and optimization algorithm) to propose a novel optimization-inspired neural network which dubbed AMP-Net. AMP-Net realizes the fusion of the Approximate Message Passing (AMP) algorithm and neural network. All of its parameters are learned automatically. Furthermore, we propose an AMPA-Net which uses three attention networks to improve the representation ability of AMP-Net. Finally, We demonstrate the effectiveness of AMP-Net and AMPA-Net on four standard CS reconstruction benchmark data sets.
 
 ## Compatibility
 * The code is tested using Tensorflow 1.0 under Ubuntu 16.04 with Python 2.7.
@@ -11,19 +11,17 @@ Compressed sensing (CS) is a challenging problem in image processing due to reco
 * Recommend Environment: Anaconda
 
 ## Preparing Training Datasets-Image-91
-   Download  Training_Data_Img91.mat from https://pan.baidu.com/s/1c34-DWDhFBsNPX23bs4H1A code is 7dV2 and cp it into this folder
+   Download  Training_Data_Img91.mat from：https://pan.baidu.com/s/1UgRuDbIXCNZOEuedVlK8bA?pwd=cq1b code is cq1b and cp it into this folder
 ## Preparing Testing Datasets:Urban-100 and BSDS100
-   Download  Urban-100 from https://pan.baidu.com/s/1M9yoJaQ1DqCrpXO-DqSo4Q code is 2i5o and cp it into this folder
+   Download  Urban-100 from：https://pan.baidu.com/s/1AUNWfVx8Jy12D12yJClWYg?pwd=rr3q  code is rr3q  and cp it into this folder
    
-   Download  BSDS-100 from https://pan.baidu.com/s/12Y4FOzmOcNjQTjvtRq0mpQ code is OBbE and cp it into this folder
-   
-   please visit a new link：https://pan.baidu.com/s/15ONiahUxcasthV1FTx0fUg  code：abcd to download all datasets
+   Download  BSDS-100 from：https://pan.baidu.com/s/1KwpRYlp_7SjphA_Vc2LMiA?pwd=kbyw code is kbyw and cp it into this folder
 ## Running training and testing
    Python trainn.py 
 
 ## Results
 
-Our model achieves the following performance on Set11,BSD68,BSDS100,Urban100
+Our model achieves the following performance on Set11, BSD68, BSDS100, Urban100
 
 ## performance on Set11
 |  Model name  |     cs=50%   |    cs=40%    |    cs=25%    |   cs=10%     |     cs=4%    |    cs=1%    |
